@@ -1,0 +1,23 @@
+class Zero {
+var pseudo = "Su"
+var age = 25
+var citation = "None"
+var message = "Empty msg"
+def ajouterAge (n:Int) = {age +=n}
+def envoyerMessage(msg:String,zero:Zero) = zero.message = msg
+def liremessage() = println(message)
+}
+
+class Boucles {
+def boucleFor(n:Int) = for (i <- 1 to n) println(i)
+
+def diviseurs (n:Int) = {
+for (i <- 1 to n/2;if (n%i==0)) 
+println(i)
+println(n)
+}
+
+def multiples(n:Int) = {
+for (i<- 0 to 9) println(i*n)
+}
+}

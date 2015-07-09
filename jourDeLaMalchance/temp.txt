@@ -1,0 +1,9 @@
+class Character {
+    var name = ""
+    def slain(e:Ennemy) = println(this.name + " has slain ennemy " + e.name)
+}
+
+    class Ennemy {
+    var name = ""
+    def slain(c:Character) = println(this.name + " has slain character " +     c.name)
+}

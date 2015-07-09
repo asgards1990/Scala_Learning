@@ -1,0 +1,26 @@
+[0m[[0minfo[0m] [0m[32mTweetSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[31mException encountered when attempting to run a suite with class name: TweetSetSuite *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NoClassDefFoundError: TweetSetSuite$$anonfun$1$$anon$1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at TweetSetSuite$$anonfun$1.apply$mcV$sp(TweetSetSuite.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at TweetSetSuite$$anonfun$1.apply(TweetSetSuite.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at TweetSetSuite$$anonfun$1.apply(TweetSetSuite.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Suite$class.withFixture(Suite.scala:1122)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: java.lang.ClassNotFoundException: TweetSetSuite$$anonfun$1$$anon$1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader$1.run(Unknown Source)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader$1.run(Unknown Source)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.security.AccessController.doPrivileged(Native Method)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.net.URLClassLoader.findClass(Unknown Source)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.lang.ClassLoader.loadClass(Unknown Source)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.lang.ClassLoader.loadClass(Unknown Source)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at TweetSetSuite$$anonfun$1.apply$mcV$sp(TweetSetSuite.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at TweetSetSuite$$anonfun$1.apply(TweetSetSuite.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at TweetSetSuite$$anonfun$1.apply(TweetSetSuite.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
