@@ -33,7 +33,7 @@ class NonEmpty(root:Int,left:IntSet,right:IntSet) extends IntSet {
   }
   
   def union(other:IntSet):IntSet = {
-    ((right union left) union other) incl root
+    (right union (left union other)) incl root
   }
   override def toString = "{"+ left+ root + right + "}"
 }
